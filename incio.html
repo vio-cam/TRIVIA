@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../TRIVIA/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unkempt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+</head>
+
+<body class="body_inicio">
+    <div class="container_inicio">
+        <h3 class="frase_quiz">El castillo del conocimiento</h3>
+        <img src="../TRIVIA/recursos/buho.png" alt="buho" class="buho_inicio">
+        <p class="contenido_frase">¡Bienvenid@ al quiz! Aquí podrás evaluar tus conocimientos</p>
+
+        <form>
+            <div class="campo">
+                <label for="usuario">USUARIO:</label>
+                <input type="text" id="usuario" placeholder="Ingresa tu nombre" class="usuario" name="usuario">
+            </div>
+        </form>
+        
+        <div class="boton">
+            <button type="button" class="boton1" onclick="usuario()" id="continuar"> Continuar</button>
+        </div>
+    </div>
+    <script src="../TRIVIA/js/script.js"></script>
+</body>
+
+</html>

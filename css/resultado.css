@@ -1,0 +1,63 @@
+body {
+  background-image: url(../recursos/fondo_resultado.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.container_resultados {
+  text-align: center;
+  background-image: url(../recursos/op1.png);
+  background-size: 650px 700px;
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 700px;
+  margin: 100px auto 0 auto;
+}
+
+.imagen_resultados {
+  margin: 100px auto 0 auto;
+}
+
+.resultado {
+  font-size: 30px;
+  font-family: "Great Vibes", cursive;
+  ;
+}
+
+.giphy {
+  box-shadow: 1px 1px 12px 10px;
+  color: #352b02;
+  width: 400px;
+  height: 150px;
+}
+
+.nombre_boton {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Bungee", sans-serif;
+  color: #000000;
+}
+
+.nombre_boton:hover {
+  color: #ffffff;
+}
+
+.boton1 {
+  background-color: #e5b752;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 50px 10px;
+  border: #fccd4c 8px outset;
+  padding: 5px;
+  width: 240px;
+  font-family: 'Bungee';
+}
+
+.boton1:hover {
+  text-transform: uppercase;
+  background-color: #524002;
+  color: #ffffff;
+}

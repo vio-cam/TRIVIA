@@ -1,0 +1,176 @@
+.body_inicio {
+  background-image: url(../recursos/velas.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Unkempt", cursive;
+}
+
+.container_inicio {
+  text-align: center;
+  background-image: url(../recursos/op1.png);
+  background-size: 650px 700px;
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 700px;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.frase_quiz {
+  padding-top: 90px;
+  color: black;
+  font-family: "Homemade Apple", cursive;
+  font-size: 58px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.contenido_frase {
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 60px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.buho_inicio {
+  width: 150px;
+  height: 190px;
+
+}
+
+.usuario {
+  text-align: center;
+  background-color: #f7f3c45e;
+  color: black;
+  font-family: "Unkempt", cursive;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.boton1 {
+  background-color: #e6c969;
+  display: block;
+  font-family: "Unkempt", cursive;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 270px;
+}
+
+.boton1:hover {
+  background-color: #f0c845;
+  color: rgb(190, 94, 4);
+}
+
+.body_categorias {
+  background-image: url(../recursos/salon.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Unkempt", cursive;
+}
+
+.container_categorias {
+  text-align: center;
+  background-image: url(../recursos/op1.png);
+  background-size: 650px 700px;
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 700px;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.hola_usuario {
+  padding-top: 90px;
+  color: black;
+  font-family: "Homemade Apple", cursive;
+  font-size: 30px;
+}
+
+.puntos,
+.seleccionar {
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 60px;
+  font-size: 25px;
+}
+
+.frase_bienvenida {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  color: #c4a339;
+  margin: 0;
+
+}
+
+.botones_categorias {
+  justify-content: center;
+}
+
+.boton_historia {
+  display: block;
+  font-size: 20px;
+  background-color: #e5b752;
+  color: #000000;
+  border: #d3aa3c 8px outset;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  width: 300px;
+  font-family: 'Bungee';
+}
+
+.boton_historia:hover {
+  background-color: #498948;
+  border: #216338 8px outset;
+  color: #ffffff;
+}
+
+.boton_geografia {
+  display: block;
+  font-size: 20px;
+  background-color: #e5b752;
+  color: #000000;
+  border: #d3aa3c 8px outset;
+  padding: 10px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  width: 300px;
+  font-family: 'Bungee';
+}
+
+.boton_geografia:hover {
+  background-color: #55c9d8;
+  border: #528d98 8px outset;
+  color: #ffffff;
+}
+
+.boton_anatomia {
+  display: block;
+  font-size: 20px;
+  background-color: #e5b752;
+  color: #000000;
+  border: #d3aa3c 8px outset;
+  padding: 10px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  width: 300px;
+  font-family: 'Bungee';
+}
+
+.boton_anatomia:hover {
+  background-color: #b81e1e;
+  border: #913030 8px outset;
+  color: #ffffff;
+}

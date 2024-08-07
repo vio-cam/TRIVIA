@@ -1,0 +1,76 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../recursos/fondogeografiajpg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    background-image: url(../recursos/op1.png);
+      background-size: 650px 700px;
+      background-repeat: no-repeat;
+      text-align: center;
+      width: 650px;
+      height: 700px;
+      margin: auto;
+      padding-top: 100px; 
+}
+
+.pregunta_nombre {
+    text-align: 100px 30px;
+    font-size: 30px;
+}
+
+.pregunta_contenido {
+    padding: 10px;
+}
+
+.pregunta_enunciado {
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+}
+
+.pregunta_alternativas button {
+    background-color:   #c6943f  ;
+    display: block;
+    font-size: 25px;
+    margin: 15px auto;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.pregunta_alternativas button:hover {
+    background-color: #111111;
+    color: white;
+    font-size: 24px;
+
+}
+
+.avance {
+    vertical-align: bottom;
+}
+
+.card {
+    text-align: center;
+    height: 150px;
+}
+
+#barra_progreso {
+    width: 50%;
+    display: block;
+    accent-color: black;
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resultado_titulo {
+    font-family: allura static;
+    font-size: 50px;
+    text-align: center;
+}
